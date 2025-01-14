@@ -1,0 +1,96 @@
+
+
+
+.roboto-normal {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared styles */
+
+.text-primary{
+    color: rgb(253, 110, 10);
+}
+
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav Styles */
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Banner Styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+
+.banner-content{
+    maximum-width: 580px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
